@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>694883210979-7gn41vja544b62bg2hjed9r81c922n5m.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.694883210979-7gn41vja544b62bg2hjed9r81c922n5m</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>694883210979-4251cr4trnvaf9ilmvpmb9skr87nfoqp.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCCxQbw5HPziiKWAa8QzrhOyPAb5ZkvCDE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>694883210979</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.udrivelogistics.client</string>
+	<key>PROJECT_ID</key>
+	<string>udrive-de79f</string>
+	<key>STORAGE_BUCKET</key>
+	<string>udrive-de79f.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:694883210979:ios:59bd8e18a8e45aa91a97d6</string>
+</dict>
+</plist>

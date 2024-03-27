@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "694883210979",
+    "project_id": "udrive-de79f",
+    "storage_bucket": "udrive-de79f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694883210979:android:e37ee430f43666901a97d6",
+        "android_client_info": {
+          "package_name": "com.udrivelogistics.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "694883210979-kj9esur536v0kh2pskm8qfjb69omddq4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.udrivelogistics.app",
+            "certificate_hash": "30a1f55e4b624daf4a6ad7d3623cf56c52bd04ab"
+          }
+        },
+        {
+          "client_id": "694883210979-8mnnvabloh6gvngutd5348nojdvrjsdr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTC6tp-GwXaUIsmOTp7NwFOCzZtL06k-8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "694883210979-8mnnvabloh6gvngutd5348nojdvrjsdr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "694883210979-52v2svstbfrvfsa15m58ljef3fc5tvq2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.udrivelogistics.driver"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,69 @@
+name: Android Release
+
+on:
+  push:
+    branches: ["main"]
+  # pull_request:
+  #   branches: [ "master" ]
+
+  workflow_dispatch:
+
+jobs:
+  build_android:
+    name: Create Android Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Download Android keystore
+        id: android_keystore
+        uses: timheuer/base64-to-file@v1.0.3
+        with:
+          fileName: key.jks
+          encodedString: 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
+      - name: Create key.properties
+        run: |
+          echo "storeFile=${{ steps.android_keystore.outputs.filePath }}" > android/key.properties
+          echo "storePassword=mezeokec51" >> android/key.properties
+          echo "keyPassword=mezeokec51" >> android/key.properties
+          echo "keyAlias=udrive" >> android/key.properties
+      - uses: actions/setup-java@v3
+        with:
+          distribution: "zulu"
+          java-version: "12.x"
+          cache: gradle
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: "3.3.0"
+          channel: "stable"
+          cache: true
+
+      - name: Get dependencies
+        run: flutter pub get
+
+      - name: Start Android Release Build
+        run: flutter build apk --no-shrink
+
+      - name: Upload Android Release
+        uses: actions/upload-artifact@v2
+        with:
+          name: android-release
+          path: build/app/outputs/flutter-apk/app-release.apk
+
+  # deploy:
+  #   name: Deploy Android Build
+  #   needs: build
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #   - uses: actions/checkout@v1
+  #   - name: Get Android Build from artifacts
+  #     uses: actions/download-artifact@v2
+  #     with:
+  #       name: android-release
+  #   - name: Release Build to internal track
+  #     uses: r0adkll/upload-google-play@v1
+  #     with:
+  #       serviceAccountJsonPlainText: ${{ secrets.PLAYSTORE_ACCOUNT_KEY }}
+  #       packageName: <YOUR_PACKAGE_NAME>
+  #       releaseFiles: app-release.aab
+  #       track: alpha
+  #       status: completed
